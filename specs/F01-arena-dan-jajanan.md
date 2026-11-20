@@ -16,6 +16,7 @@ Pemain dapat melihat wadah permainan berlatar krem hangat dengan bingkai kayu se
 - `GAME_CONFIG.containerHeight` (`520`)
 - `GAME_CONFIG.canvasBgColor` (`#FFF8E7`)
 - `GAME_CONFIG.containerBorderColor` (`#5D4037`)
+- `GAME_CONFIG.pageBackgroundImage` (`/assets/aistudio/032573200_1721202304-shutterstock_2305274283_f2bd60b8.jpg`)
 - `SNACK_TIERS` (Tier 1 sampai Tier 9: `tier`, `name`, `radius`, `color`, `accentDescription`, `mergePoints`)
 
 ## Aturan dan rumus

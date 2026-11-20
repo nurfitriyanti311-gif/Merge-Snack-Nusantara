@@ -111,6 +111,8 @@ export const GAME_CONFIG = {
   canvasBgColor: '#FFF8E7',
   containerBorderColor: '#5D4037',
   dangerLineColor: '#DC2626',
+  pageBackgroundImage:
+    '/assets/aistudio/032573200_1721202304-shutterstock_2305274283_f2bd60b8.jpg',
   physics: {
     gravityY: 1.35,
     restitution: 0.22,
@@ -122,6 +124,7 @@ export const GAME_CONFIG = {
   audio: {
     mergeBaseHz: 260,
     mergeStepHz: 55,
+    musicStepMs: 270,
   },
 } as const;
 

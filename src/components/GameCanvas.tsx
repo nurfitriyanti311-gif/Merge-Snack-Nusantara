@@ -331,6 +331,7 @@ export function GameCanvas({
         }
 
         if (timerResult.isGameOver) {
+          soundEngine.stopMusic();
           soundEngine.playGameOver();
           onGameOverRef.current();
         }
@@ -473,6 +474,7 @@ export function GameCanvas({
       return;
     }
     soundEngine.unlock();
+    soundEngine.startMusic();
     isPointerDownRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
     updateAimFromEvent(e);

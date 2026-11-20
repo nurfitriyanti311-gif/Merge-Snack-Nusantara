@@ -12,7 +12,7 @@ export function EvolutionLegend() {
   return (
     <footer
       aria-label="Urutan evolusi jajanan"
-      className="w-full bg-white border border-neutral-200 rounded-2xl px-2.5 py-2"
+      className="w-full bg-[#FFFDF9] border border-[#D7CCC8] rounded-2xl px-2.5 py-2"
     >
       <div className="flex items-center justify-between gap-0.5 overflow-x-auto">
         {SNACK_TIERS.map((snack, index) => {

@@ -25,7 +25,7 @@ export function HeaderBar({
   const nextSnack = getSnackTier(nextTier);
 
   return (
-    <header className="w-full bg-white border border-neutral-200 rounded-2xl px-3 py-2 flex items-center justify-between gap-2">
+    <header className="w-full bg-[#FFFDF9] border border-[#D7CCC8] rounded-2xl px-3 py-2 flex items-center justify-between gap-2">
       <div className="flex items-center gap-3 min-w-0">
         <div className="min-w-0">
           <div className="text-[11px] font-semibold tracking-wide text-neutral-600">
@@ -36,7 +36,7 @@ export function HeaderBar({
           </div>
         </div>
 
-        <div className="h-8 w-px bg-neutral-200 shrink-0" aria-hidden="true" />
+        <div className="h-8 w-px bg-[#E7D8C5] shrink-0" aria-hidden="true" />
 
         <div className="min-w-0">
           <div className="text-[11px] font-semibold tracking-wide text-neutral-600">
@@ -50,7 +50,7 @@ export function HeaderBar({
 
       <div className="flex items-center gap-1.5 shrink-0">
         <div
-          className="flex items-center gap-2 bg-neutral-50 border border-neutral-200 rounded-xl px-2.5 py-1"
+          className="flex items-center gap-2 bg-[#FFF8E7] border border-[#E7D8C5] rounded-xl px-2.5 py-1"
           aria-label={`Berikutnya: ${nextSnack.name}`}
         >
           <SnackPreviewIcon tier={nextTier} size={28} className="shrink-0" />
@@ -67,7 +67,7 @@ export function HeaderBar({
           onClick={onRestart}
           aria-label="Mulai ulang permainan"
           title="Mulai ulang"
-          className="w-11 h-11 rounded-xl border border-neutral-200 bg-white text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900 flex items-center justify-center transition-transform duration-150 ease-out active:scale-95 motion-reduce:transition-none focus-visible:outline-2 focus-visible:outline-orange-700 focus-visible:outline-offset-2 shrink-0"
+          className="w-11 h-11 rounded-xl border border-[#D7CCC8] bg-white text-neutral-700 hover:bg-[#FFF8E7] hover:text-neutral-900 flex items-center justify-center transition-transform duration-150 ease-out active:scale-95 motion-reduce:transition-none focus-visible:outline-2 focus-visible:outline-orange-700 focus-visible:outline-offset-2 shrink-0"
         >
           <RotateCcw className="w-5 h-5" aria-hidden="true" />
         </button>
@@ -77,7 +77,7 @@ export function HeaderBar({
           onClick={onToggleMute}
           aria-label={isMuted ? 'Aktifkan suara' : 'Bisukan suara'}
           title={isMuted ? 'Aktifkan suara' : 'Bisukan suara'}
-          className="w-11 h-11 rounded-xl border border-neutral-200 bg-white text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900 flex items-center justify-center transition-transform duration-150 ease-out active:scale-95 motion-reduce:transition-none focus-visible:outline-2 focus-visible:outline-orange-700 focus-visible:outline-offset-2 shrink-0"
+          className="w-11 h-11 rounded-xl border border-[#D7CCC8] bg-white text-neutral-700 hover:bg-[#FFF8E7] hover:text-neutral-900 flex items-center justify-center transition-transform duration-150 ease-out active:scale-95 motion-reduce:transition-none focus-visible:outline-2 focus-visible:outline-orange-700 focus-visible:outline-offset-2 shrink-0"
         >
           {isMuted ? (
             <VolumeX className="w-5 h-5 text-neutral-500" aria-hidden="true" />
