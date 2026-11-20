@@ -1,0 +1,6 @@
+{
+  "name": "Merge Snack Nusantara",
+  "description": "Game puzzle fisika kasual menjatuhkan dan menggabungkan sembilan jajanan khas Nusantara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
